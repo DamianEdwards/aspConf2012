@@ -308,6 +308,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ModelBinding\RequestValueProvider.cs" />
+    <Compile Include="ModelBinding\RequestAttribute.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
