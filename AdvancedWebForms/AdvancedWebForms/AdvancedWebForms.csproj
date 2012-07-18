@@ -95,6 +95,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\LoginAjax.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="AutoBind.aspx" />
     <Content Include="Commands.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
@@ -268,6 +269,14 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\ScriptConfig.cs" />
+    <Compile Include="AutoBind.aspx.cs">
+      <DependentUpon>AutoBind.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AutoBind.aspx.designer.cs">
+      <DependentUpon>AutoBind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AutoBindControlBuilderInterceptor.cs" />
     <Compile Include="Commands.aspx.cs">
       <DependentUpon>Commands.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
