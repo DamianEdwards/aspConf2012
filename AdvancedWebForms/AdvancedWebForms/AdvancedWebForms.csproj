@@ -174,20 +174,17 @@
     <None Include="Scripts\jquery-1.7.2.intellisense.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
     </None>
+    <Content Include="Scripts\site.min.js" />
     <Content Include="Scripts\jquery-1.7.2.js" />
     <Content Include="Scripts\jquery-1.7.2.min.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
-    </Content>
-    <Content Include="Scripts\jquery-ui-1.8.11.js" />
-    <Content Include="Scripts\jquery-ui-1.8.11.min.js">
-      <DependentUpon>jquery-ui-1.8.11.js</DependentUpon>
     </Content>
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.min.js">
       <DependentUpon>jquery-ui-1.8.20.js</DependentUpon>
     </Content>
-    <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\site.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -213,7 +210,9 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Site.NoForm.Master" />
   </ItemGroup>
   <ItemGroup>
@@ -268,6 +267,7 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\ScriptConfig.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="BodyContent">
     <form runat="server">
-        <asp:ScriptManager runat="server">
+        <asp:ScriptManager runat="server" EnableCdn="true">
             <Scripts>
                 <%--Framework scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />

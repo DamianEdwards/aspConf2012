@@ -6,6 +6,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using System.Web.UI;
 using AdvancedWebForms;
 
 namespace AdvancedWebForms
@@ -16,6 +17,7 @@ namespace AdvancedWebForms
         {
             // Code that runs on application startup
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ScriptConfig.RegisterScripts(ScriptManager.ScriptResourceMapping);
         }
 
         void Application_End(object sender, EventArgs e)
