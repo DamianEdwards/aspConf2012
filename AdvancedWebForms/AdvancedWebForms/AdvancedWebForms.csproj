@@ -95,6 +95,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\LoginAjax.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Commands.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -174,7 +175,6 @@
     <None Include="Scripts\jquery-1.7.2.intellisense.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
     </None>
-    <Content Include="Scripts\site.min.js" />
     <Content Include="Scripts\jquery-1.7.2.js" />
     <Content Include="Scripts\jquery-1.7.2.min.js">
       <DependentUpon>jquery-1.7.2.js</DependentUpon>
@@ -184,7 +184,6 @@
       <DependentUpon>jquery-ui-1.8.20.js</DependentUpon>
     </Content>
     <Content Include="Scripts\modernizr-2.5.3.js" />
-    <Content Include="Scripts\site.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -268,6 +267,13 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\ScriptConfig.cs" />
+    <Compile Include="Commands.aspx.cs">
+      <DependentUpon>Commands.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Commands.aspx.designer.cs">
+      <DependentUpon>Commands.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

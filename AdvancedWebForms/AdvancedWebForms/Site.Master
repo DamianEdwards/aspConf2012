@@ -18,6 +18,7 @@
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site scripts--%>
+
             </Scripts>
         </asp:ScriptManager>
         <header>
